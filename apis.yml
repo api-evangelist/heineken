@@ -7,11 +7,33 @@ tags:
   - Beverages
   - Consumer Goods
   - Manufacturing
-description: 'A Dutch multinational brewing company and one of the world''s largest beer producers. Operates over 165 breweries across 70 countries producing iconic brands including Heineken, Amstel, Tecate, and Dos Equis.'
+  - B2B Integration
+description: 'A Dutch multinational brewing company and one of the world''s largest beer producers. Operates over 165 breweries across 70 countries producing iconic brands including Heineken, Amstel, Tecate, and Dos Equis. Maintains an internal HEIWAY API portal (api-portal.production.az.heiway.com) used for partner, distributor, and on-trade B2B integrations; access is gated and not openly published.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
-apis: []
+apis:
+  - aid: heineken:heineken-heiway-api-portal
+    name: Heineken HEIWAY API Portal
+    description: >-
+      Heineken operates an internal API portal under its HEIWAY platform used for
+      B2B and partner integrations (distributors, on-trade customers, and internal
+      systems). The portal is reached via developer.heineken.com (which redirects
+      to api-portal.production.az.heiway.com) and is gated to credentialed
+      partners; no public catalogue is published.
+    humanURL: https://developer.heineken.com/
+    tags:
+      - B2B
+      - Partner Integration
+      - HEIWAY
+    properties:
+      - url: https://developer.heineken.com/
+        type: Portal
 common:
   - type: Website
     url: https://www.theheinekencompany.com/
+  - type: Portal
+    url: https://developer.heineken.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
