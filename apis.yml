@@ -30,6 +30,10 @@ apis:
       - url: https://developer.heineken.com/
         type: Portal
 common:
+  - type: GitHubOrganization
+    url: https://github.com/The-Heineken-Company
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/heineken
   - type: Website
     url: https://www.theheinekencompany.com/
   - type: Portal
