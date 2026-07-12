@@ -30,6 +30,10 @@ apis:
       - url: https://developer.heineken.com/
         type: Portal
 common:
+  - type: VulnerabilityDisclosure
+    url: security/heineken-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/heineken-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/The-Heineken-Company
   - type: LinkedIn
@@ -38,6 +42,8 @@ common:
     url: https://www.theheinekencompany.com/
   - type: Portal
     url: https://developer.heineken.com/
+  - type: Blog
+    url: https://www.theheinekencompany.com/newsroom
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
