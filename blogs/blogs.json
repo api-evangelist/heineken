@@ -1,0 +1,21 @@
+{
+  "repo": "heineken",
+  "feeds": [
+    {
+      "source": "https://www.theheinekencompany.com/newsroom",
+      "feed_url": "https://www.theheinekencompany.com/newsroom/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://developer.heineken.com/",
+      "feed_url": "https://developer.heineken.com/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 5
+}
