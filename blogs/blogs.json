@@ -2,23 +2,21 @@
   "repo": "heineken",
   "feeds": [
     {
-      "source": "https://www.theheinekencompany.com/newsroom/feed/",
-      "feed_url": "https://www.theheinekencompany.com/newsroom/feed/",
-      "title": "",
-      "saved": 0,
-      "method": "feed",
-      "nature": "vendor-blog",
-      "nature_basis": "path_blog"
-    },
-    {
       "source": "https://developer.heineken.com/",
       "feed_url": "https://developer.heineken.com/",
       "title": "",
       "saved": 0,
       "method": "none"
+    },
+    {
+      "source": "https://www.theheinekencompany.com/newsroom/feed/",
+      "feed_url": "https://www.theheinekencompany.com/newsroom/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "fetched": "2026-08-30T22:33:40Z",
+  "fetched": "2026-09-06T19:17:18Z",
   "post_count": 33,
   "feed_nature": "vendor-blog",
   "feed_nature_basis": "path_blog",
